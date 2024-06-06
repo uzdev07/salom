@@ -1,0 +1,111 @@
+.main {
+    background-image: url("../../Assets/Images/orqaqism.png");
+    width: 1920px;
+    height: 412px;
+
+    &__list {
+        display: flex;
+        margin-left: 650px;
+    }
+
+    &__logo {
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+        color: var(--white);
+        font-style: italic;
+        font-weight: 600;
+        width: 679.53px;
+
+    }
+
+    &__boottom--logo {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .main {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 412px o'rniga avtomatik balandlik */
+        overflow-x: hidden;
+        margin-left: 5%;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .main__list {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+        margin-right: auto;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .main__logo {
+        margin-top: 15px;
+        margin-right: 10px;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .main__text {
+        font-size: 16px;
+        /* 20px bo'lmaganining o'rniga % ishlatish */
+        width: 80%;
+        /* 679.53px bo'lmaganining o'rniga % ishlatish */
+        text-align: center;
+        /* Matnni markazga olish */
+    }
+
+    .main__boottom--logo {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .main {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 412px o'rniga avtomatik balandlik */
+        overflow-x: hidden;
+        margin-left: 5%;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .main__list {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+        margin-right: auto;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .main__logo {
+        margin-top: 15px;
+        margin-right: 10px;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .main__text {
+        font-size: 16px;
+        /* 20px bo'lmaganining o'rniga % ishlatish */
+        width: 80%;
+        /* 679.53px bo'lmaganining o'rniga % ishlatish */
+        text-align: center;
+        /* Matnni markazga olish */
+    }
+
+    .main__boottom--logo {
+        margin-top: 25px;
+    }
+}

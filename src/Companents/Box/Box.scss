@@ -1,0 +1,245 @@
+.box {
+
+    background-image: url("../../Assets/Images/innerbacground.png");
+    width: 1920px;
+
+    &__listt {
+        display: flex;
+        margin-left: 150px;
+        flex-wrap: wrap;
+    }
+
+    &__list {
+        margin-left: 95px;
+    }
+
+    &__head {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 48px;
+        letter-spacing: -0.02em;
+        color: var(--white);
+        margin-left: 650px;
+    }
+
+    &__img {
+        margin-left: 95px;
+        transform: translateY(95px);
+    }
+
+    &__list--item {
+        border-radius: 100px 15px;
+        padding: 95px 25px 25px 25px;
+        width: 346px;
+        height: 239px;
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 700;
+        font-size: 24px;
+        margin-left: 105px;
+        letter-spacing: -0.03em;
+        color: var(--light-green);
+    }
+
+    &__item {
+        display: flex;
+        margin-left: 25px;
+
+        &--img {
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+
+        &--text {
+            margin-left: 15px;
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: -0.04em;
+            color: var(--grey-dark2);
+        }
+
+        &--span {
+            margin-top: 15px;
+            margin-left: 8px;
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: -0.04em;
+            color: var(--white);
+        }
+
+        &--italic {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: -0.03em;
+            color: var(--white);
+            margin-left: 100px
+        }
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .user .box {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__listt {
+        margin-left: 5%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__list {
+        margin-left: 2.5%;
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__head {
+        font-size: 36px;
+        /* 48px dan kichikroq sizning talablar bo'yicha */
+        margin-left: 35%;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__img {
+        margin-left: 2.5%;
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+        transform: translateY(2.5%);
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__list--item {
+        padding: 25px;
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+        width: 90%;
+        /* 346px bo'lmaganining o'rniga % ishlatish */
+        max-width: 400px;
+        /* 346px dan katta kengliklarda o'lchamlarni saqlash */
+    }
+
+    .user .box__text {
+        font-size: 20px;
+        /* 24px dan kichikroq sizning talablar bo'yicha */
+        margin-left: 5%;
+        /* 105px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__item {
+        margin-left: 2.5%;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__item--img {
+        margin-left: 0.5%;
+        /* 5px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__item--text {
+        margin-left: 0.5%;
+        /* 15px bo'lmaganining o'rniga % ishlatish */
+        font-size: 14px;
+        /* 16px dan kichikroq sizning talablar bo'yicha */
+    }
+
+    .user .box__item--span {
+        margin-left: 0.5%;
+        /* 8px bo'lmaganining o'rniga % ishlatish */
+        font-size: 14px;
+        /* 16px dan kichikroq sizning talablar bo'yicha */
+    }
+
+    .user .box__item--italic {
+        margin-left: 5%;
+        /* 100px bo'lmaganining o'rniga % ishlatish */
+        font-size: 16px;
+        /* 20px dan kichikroq sizning talablar bo'yicha */
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .user .box {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__listt {
+        margin-left: 5%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__list {
+        margin-left: 5%;
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__head {
+        font-size: 36px;
+        /* 48px dan kichikroq sizning talablar bo'yicha */
+        margin-left: 20%;
+        /* 650px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__img {
+        margin-left: 5%;
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+        transform: translateY(5%);
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__list--item {
+        padding: 25px;
+        /* 95px bo'lmaganining o'rniga % ishlatish */
+        width: 90%;
+        /* 346px bo'lmaganining o'rniga % ishlatish */
+        max-width: 100%;
+        /* To'liq ekranga mos ravishda kengliklarni saqlash */
+    }
+
+    .user .box__text {
+        font-size: 20px;
+        /* 24px dan kichikroq sizning talablar bo'yicha */
+        margin-left: 5%;
+        /* 105px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__item {
+        margin-left: 5%;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__item--img {
+        margin-left: 1%;
+        /* 5px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .user .box__item--text {
+        margin-left: 1%;
+        /* 15px bo'lmaganining o'rniga % ishlatish */
+        font-size: 14px;
+        /* 16px dan kichikroq sizning talablar bo'yicha */
+    }
+
+    .user .box__item--span {
+        margin-left: 0.5%;
+        /* 8px bo'lmaganining o'rniga % ishlatish */
+        font-size: 14px;
+        /* 16px dan kichikroq sizning talablar bo'yicha */
+    }
+
+    .user .box__item--italic {
+        margin-left: 5%;
+        /* 100px bo'lmaganining o'rniga % ishlatish */
+        font-size: 16px;
+        /* 20px dan kichikroq sizning talablar bo'yicha */
+    }
+}

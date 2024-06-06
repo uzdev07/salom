@@ -1,0 +1,165 @@
+.section_1 {
+    width: 100%;
+    background: var(--black);
+    color: white;
+}
+
+
+
+.header__top {
+    max-width: 1940px;
+    background: var(--black);
+    display: flex;
+    margin-left: 130px;
+}
+
+.header__top--list {
+    display: flex;
+    gap: 100px;
+    margin-left: 500px;
+}
+
+.header__top--logo {
+    padding-top: 13px;
+    padding-left: 200px;
+}
+
+.section_2 {
+    width: 100% !important;
+    background: var(--black2);
+}
+
+.header__buttom--logo {
+    margin-left: 250px;
+}
+
+.header__buttom1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.header__buttom--box {
+    border-radius: 15px;
+    padding: 10px 25px;
+    width: 657px;
+    height: 79px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.buttom__list {
+    display: flex;
+    gap: 50px;
+}
+
+.header__buttom1 {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.item__link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: -0.04em;
+    color: var(--white);
+}
+
+.header__button--head {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    color: var(--white);
+    margin-top: 10px;
+}
+
+.header__button--cost {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.header__user {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .header__top {
+        margin-left: 20px;
+    }
+
+    .header__top--list {
+        margin-left: 30px;
+        gap: 30px;
+    }
+
+    .header__top--logo {
+        padding-left: 30px;
+    }
+
+    .header__buttom--logo {
+        margin-left: 30px;
+    }
+
+    .header__buttom--box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .buttom__list {
+        gap: 30px;
+    }
+
+    .header__button--cost {
+        margin-left: 30px;
+    }
+
+    .header__user {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .header__top {
+        margin-left: 5px;
+    }
+
+    .header__top--list {
+        margin-left: 10px;
+        gap: 10px;
+    }
+
+    .header__top--logo {
+        padding-left: 10px;
+    }
+
+    .header__buttom--logo {
+        margin-left: 10px;
+    }
+
+    .header__buttom--box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .buttom__list {
+        gap: 10px;
+    }
+
+    .header__button--cost {
+        margin-left: 10px;
+    }
+
+    .header__user {
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,109 @@
+.wrapp {
+    background-image: url("../../Assets/Images/bacgroundwrapp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 666px;
+    // margin-left: -15px;
+
+
+    &__head {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: -0.01em;
+        margin-left: 20rem;
+        margin-top: 120px;
+        color: var(--white);
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        width: 420px;
+        margin-left: 20rem;
+        letter-spacing: -0.03em;
+        color: var(--white);
+        margin-bottom: 150px;
+    }
+
+    &__span {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -0.02em;
+        color: aliceblue;
+        border-radius: 100px 50px 50px 20px;
+        padding: 10px 30px;
+        width: 284px;
+        height: 74px;
+        backdrop-filter: blur(10px);
+        background: rgba(235, 142, 34, 0.8);
+        margin-left: 550px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .wrapp {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 666px o'rniga avtomatik balandlik */
+        overflow-x: hidden;
+    }
+
+    .wrapp__head {
+        margin-left: 15%;
+        /* 20rem bo'lmaganining o'rniga % ishlatish */
+        margin-top: 15%;
+        /* 120px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .wrapp__text {
+        width: 90%;
+        /* 420px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 15%;
+        /* 20rem bo'lmaganining o'rniga % ishlatish */
+        margin-bottom: 20%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .wrapp__span {
+        margin-left: 30%;
+        /* 550px bo'lmaganining o'rniga % ishlatish */
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .wrapp {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 666px o'rniga avtomatik balandlik */
+        overflow-x: hidden;
+    }
+
+    .wrapp__head {
+        margin-left: 5%;
+        /* 20rem bo'lmaganining o'rniga % ishlatish */
+        margin-top: 15%;
+        /* 120px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .wrapp__text {
+        width: 90%;
+        /* 420px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 20rem bo'lmaganining o'rniga % ishlatish */
+        margin-bottom: 20%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .wrapp__span {
+        margin-left: 30%;
+        /* 550px bo'lmaganining o'rniga % ishlatish */
+    }
+}

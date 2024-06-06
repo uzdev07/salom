@@ -1,0 +1,179 @@
+.footer {
+    width: 1920px;
+    height: 258px;
+    background: var(--black);
+
+    &__list {
+        display: flex;
+        margin-left: 185px;
+        margin-top: 50px;
+
+        &--head {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: -0.04em;
+            color: var(--grey-dark1);
+        }
+
+        &--item1 {
+            margin-top: 25px;
+            margin-left: 450px;
+            display: flex;
+        }
+
+        &--item {
+            margin-left: 25px;
+        }
+    }
+
+    &__item--link {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: var(--grey-dark1);
+    }
+
+
+    &__bottom--item1 {
+        display: flex;
+        border-radius: 20px;
+        padding: 5px 10px;
+        width: 241px;
+        height: 32px;
+        background: rgba(101, 157, 46, 0.1);
+    }
+
+    &__bottom--text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 137%;
+        letter-spacing: -0.04em;
+        text-align: right;
+        margin-top: 1px;
+        margin-left: 5px;
+        color: var(--grey);
+    }
+
+    &__bottom--img {
+        margin-top: 5px;
+    }
+
+    &__bottom--item {
+        margin-left: 25px;
+    }
+
+    &__bottom--img1 {
+        border-radius: 30px;
+        fill: rgba(118, 235, 2, 0.1);
+        width: 46px;
+        height: 45px;
+    }
+
+    &__apple {
+        display: flex;
+        width: 179.75px;
+        height: 52px;
+        top: 52px;
+        gap: 0px;
+        opacity: 0px;
+        border: 2px solid #A6A6A6;
+        margin-top: 25px;
+        margin-left: 15px;
+        border-radius: 15px;
+
+        &--left {
+            margin-top: 5px;
+        }
+    }
+
+    &__app--head {
+        color: #A6A6A6;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    &__app--text {
+        font-size: 20px;
+        margin-left: 4px;
+        color: #A6A6A6;
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .footer {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 185px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .footer__list {
+        margin-left: 10%;
+        /* 185px bo'lmaganining o'rniga % ishlatish */
+        margin-top: 5%;
+        /* 50px bo'lmaganining o'rniga % ishlatish */
+        flex-wrap: wrap;
+    }
+
+    .footer__list--item1 {
+        margin-left: 25%;
+        /* 450px bo'lmaganining o'rniga % ishlatish */
+        margin-top: 5%;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .footer__item--link {
+        text-align: center;
+    }
+
+    .footer__apple {
+        width: 50%;
+        /* 179.75px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 15px bo'lmaganining o'rniga % ishlatish */
+        margin-top: 5%;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .footer {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 185px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .footer__list {
+        margin-left: 5%;
+        /* 185px bo'lmaganining o'rniga % ishlatish */
+        margin-top: 5%;
+        /* 50px bo'lmaganining o'rniga % ishlatish */
+        flex-wrap: wrap;
+    }
+
+    .footer__list--item1 {
+        margin-left: 5%;
+        /* 450px bo'lmaganining o'rniga % ishlatish */
+        margin-top: 5%;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .footer__item--link {
+        text-align: center;
+    }
+
+    .footer__apple {
+        width: 90%;
+        /* 179.75px bo'lmaganining o'rniga % ishlatish */
+        margin-left: 5%;
+        /* 15px bo'lmaganining o'rniga % ishlatish */
+        margin-top: 5%;
+        /* 25px bo'lmaganining o'rniga % ishlatish */
+    }
+}

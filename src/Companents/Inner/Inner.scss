@@ -1,0 +1,142 @@
+.inner {
+
+    background-image: url("../../Assets/Images/mainbacground1.png");
+    width: 1920px;
+    height: 498px;
+    // margin-left: -20px;
+
+    &__header {
+        border-radius: 20px;
+        padding: 15px;
+        width: 751px;
+        height: 96px;
+        margin-left: 475px;
+        display: flex;
+    }
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+        color: var(--white);
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    &__logo {
+        margin-top: 20px;
+    }
+
+
+    &__list {
+        display: flex;
+        width: 1076px;
+        height: 197px;
+        margin-left: 175px;
+
+        &--item {
+            margin-left: 120px;
+        }
+
+        &--item6 {
+            border-radius: 80px 15px;
+            padding: 15px;
+            width: 150px;
+            margin-left: 85px;
+            height: 140px;
+            background: rgba(235, 142, 34, 0.1);
+        }
+
+        &--text6 {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            letter-spacing: -0.02em;
+            color: var(--green);
+        }
+
+        &--text {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            letter-spacing: -0.04em;
+            text-align: center;
+            color: var(--white);
+        }
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .inner {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 498px o'rniga avtomatik balandlik */
+        overflow-x: hidden;
+    }
+
+    .inner__header {
+        margin-left: 25%;
+        /* 475px bo'lmaganining o'rniga % ishlatish */
+        width: 50%;
+        /* 751px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .inner__list {
+        margin-left: 10%;
+        /* 175px bo'lmaganining o'rniga % ishlatish */
+        width: 70%;
+        /* 1076px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 197px o'rniga avtomatik balandlik */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inner__list--item {
+        margin-left: 5%;
+        /* 120px bo'lmaganining o'rniga % ishlatish */
+        width: 30%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 140px o'rniga avtomatik balandlik */
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .inner {
+        width: 90%;
+        /* 1920px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 498px o'rniga avtomatik balandlik */
+        overflow-x: hidden;
+    }
+
+    .inner__header {
+        margin-left: 5%;
+        /* 475px bo'lmaganining o'rniga % ishlatish */
+        width: 90%;
+        /* 751px bo'lmaganining o'rniga % ishlatish */
+    }
+
+    .inner__list {
+        margin-left: 5%;
+        /* 175px bo'lmaganining o'rniga % ishlatish */
+        width: 90%;
+        /* 1076px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 197px o'rniga avtomatik balandlik */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inner__list--item {
+        margin-left: 5%;
+        /* 120px bo'lmaganining o'rniga % ishlatish */
+        width: 90%;
+        /* 150px bo'lmaganining o'rniga % ishlatish */
+        height: auto;
+        /* 140px o'rniga avtomatik balandlik */
+    }
+}
